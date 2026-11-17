@@ -1,0 +1,41 @@
+{
+  "seed": 14048,
+  "baseline": {
+    "experiment_id": "E01",
+    "config": {
+      "intensity": "none",
+      "filter": "none",
+      "segmentation": "otsu",
+      "morph": "none",
+      "separation": "cc",
+      "min_area": 100
+    }
+  },
+  "final_pipeline": {
+    "name": "Pipeline B (CLAHE+Gauss5+Adaptif+CC)",
+    "experiment_id": "E11",
+    "config": {
+      "intensity": "clahe",
+      "filter": "gaussian",
+      "segmentation": "adaptive",
+      "morph": "none",
+      "separation": "cc",
+      "min_area": 100,
+      "clahe_clip": 3.0,
+      "clahe_grid": [
+        8,
+        8
+      ],
+      "filter_k": 5,
+      "adapt_block": 71,
+      "adapt_c": -12
+    },
+    "selection": "en düşük doğrulama MAE (eşitlikte RMSE, süre, karmaşıklık)",
+    "validation": {
+      "Validation_MAE": 1.0,
+      "Validation_RMSE": 1.342,
+      "Ortalama_Sure_ms": 46.5
+    }
+  },
+  "histogram_matching_reference": "t033.tif"
+}
