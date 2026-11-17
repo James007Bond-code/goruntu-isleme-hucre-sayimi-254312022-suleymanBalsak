@@ -1,0 +1,21 @@
+gt_count,pred_count,dogru,kacirilan,birlesmis_hucre,birlesmis_nesne,yanlis_pozitif,split,frame_idx,filename
+23,25,16,7,0,0,9,Dogrulama (Seq 01),5,t005.tif
+24,23,17,7,0,0,6,Dogrulama (Seq 01),22,t022.tif
+24,24,17,7,0,0,7,Dogrulama (Seq 01),24,t024.tif
+21,19,17,4,0,0,2,Dogrulama (Seq 01),59,t059.tif
+21,21,16,5,0,0,5,Dogrulama (Seq 01),65,t065.tif
+28,20,11,17,0,0,9,Test (Seq 02),38,t038.tif
+28,18,11,17,0,0,7,Test (Seq 02),39,t039.tif
+28,15,8,20,0,0,7,Test (Seq 02),40,t040.tif
+28,17,9,19,0,0,8,Test (Seq 02),41,t041.tif
+27,19,9,18,0,0,10,Test (Seq 02),42,t042.tif
+31,20,12,19,0,0,8,Test (Seq 02),55,t055.tif
+31,20,11,20,0,0,9,Test (Seq 02),56,t056.tif
+31,19,11,20,0,0,8,Test (Seq 02),57,t057.tif
+31,23,11,20,0,0,12,Test (Seq 02),58,t058.tif
+31,20,11,20,0,0,9,Test (Seq 02),59,t059.tif
+30,20,10,20,0,0,10,Test (Seq 02),82,t082.tif
+31,20,10,21,0,0,10,Test (Seq 02),83,t083.tif
+29,15,8,21,0,0,7,Test (Seq 02),84,t084.tif
+29,17,9,20,0,0,8,Test (Seq 02),85,t085.tif
+29,19,9,20,0,0,10,Test (Seq 02),86,t086.tif
